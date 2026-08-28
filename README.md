@@ -10,6 +10,9 @@ the first installer anywhere pays the cost once.
 
 ## Apps
 
+- [2048](https://github.com/gabrielecirulli/2048) — the classic
+  sliding-tile game. Pure static; installs in seconds.
+  `recipe: recipes/2048.json`
 - [Chess Tutor](https://github.com/yueranyuan/chess-tutor) — play against
   an adjustable Stockfish with instant move-by-move coaching, hot lesson
   policy, and the Coach resident. The flagship.

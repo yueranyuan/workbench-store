@@ -1,0 +1,11 @@
+{
+  "id": "2048",
+  "name": "2048",
+  "icon": "Grid3x3",
+  "tint": "#edc22e",
+  "repo": "https://github.com/gabrielecirulli/2048",
+  "static": "2048",
+  "vendors": [],
+  "window": { "w": 560, "h": 760 },
+  "notes": "the classic sliding-tile game; pure static, no build"
+}

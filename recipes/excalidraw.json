@@ -1,0 +1,13 @@
+{
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "icon": "PenTool",
+  "tint": "#6965db",
+  "repo": "https://github.com/excalidraw/excalidraw",
+  "install": "yarn install --network-timeout 600000",
+  "build": "yarn build:app",
+  "static": "excalidraw/excalidraw-app/build",
+  "vendors": [],
+  "window": { "w": 1100, "h": 720 },
+  "notes": "whiteboard; heavy install (~5 min)"
+}
