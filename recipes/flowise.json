@@ -4,8 +4,8 @@
   "icon": "Workflow",
   "tint": "#7b61ff",
   "repo": "https://github.com/FlowiseAI/Flowise",
-  "install": "mkdir -p ../flowise-bin && cd ../flowise-bin && [ -f package.json ] || npm init -y >/dev/null; cd ../flowise-bin && npm install --no-audit --no-fund flowise",
-  "start": "../flowise-bin/node_modules/.bin/flowise start",
+  "install": "mkdir -p ../flowise-bin && cd ../flowise-bin && { [ -f package.json ] || npm init -y >/dev/null; } && npm install --no-audit --no-fund flowise@latest",
+  "start": "./node_modules/.bin/flowise start",
   "port": 5306,
   "world": "flowise-world",
   "vendors": [
@@ -16,5 +16,6 @@
     "w": 1200,
     "h": 780
   },
-  "notes": "LLM flow builder; runs SEALED in a twin world \u2014 AI vendors are twins, no real keys"
+  "notes": "LLM flow builder; runs SEALED in a twin world \u2014 AI vendors are twins, no real keys",
+  "cwd": "programs/flowise-bin"
 }
