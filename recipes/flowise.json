@@ -1,0 +1,14 @@
+{
+  "id": "flowise",
+  "name": "Flowise",
+  "icon": "Workflow",
+  "tint": "#7b61ff",
+  "repo": "https://github.com/FlowiseAI/Flowise",
+  "install": "npm init -y >/dev/null 2>&1; npm install --no-audit --no-fund flowise",
+  "start": "npx flowise start",
+  "port": 5306,
+  "world": "flowise-world",
+  "vendors": ["anthropic", "openai"],
+  "window": { "w": 1200, "h": 780 },
+  "notes": "LLM flow builder; runs SEALED in a twin world — AI vendors are twins, no real keys"
+}
