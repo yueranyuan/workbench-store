@@ -1,0 +1,13 @@
+{
+  "id": "yuvomi",
+  "name": "Yuvomi",
+  "icon": "CalendarDays",
+  "tint": "#7c6ff0",
+  "repo": "https://github.com/ulsklyc/yuvomi",
+  "install": "npm install --no-audit --no-fund && { [ -f .env ] || printf 'SESSION_SECRET=%s\\nNODE_ENV=production\\n' \"$(openssl rand -hex 32)\" > .env; }",
+  "start": "npm start",
+  "port": 5304,
+  "window": { "w": 1150, "h": 760 },
+  "vendors": [],
+  "notes": "family planner — calendar, tasks, meals; node + sqlite, all data stays in the checkout"
+}

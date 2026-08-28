@@ -42,3 +42,4 @@ the first installer anywhere pays the cost once.
 One PR, one line, optional recipe. Listing is curation, not vetting —
 Workbench reads every repo before first run, and sealed worlds catch
 what reading misses.
+- **Yuvomi** — family planner: calendar, tasks, meals. `yuvomi`
