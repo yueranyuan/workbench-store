@@ -16,6 +16,43 @@
     "w": 1200,
     "h": 780
   },
-  "notes": "LLM flow builder; runs SEALED in a twin world \u2014 AI vendors are twins, no real keys",
-  "cwd": "programs/flowise-bin"
+  "notes": "LLM flow builder; runs SEALED in a twin world — AI vendors are twins, no real keys",
+  "cwd": "programs/flowise-bin",
+  "auth": {
+    "login": {
+      "path": "/api/v1/auth/login",
+      "json": {
+        "email": "${email}",
+        "password": "${password}"
+      }
+    },
+    "register": {
+      "path": "/api/v1/account/register",
+      "json": {
+        "user": {
+          "name": "Owner",
+          "email": "${email}",
+          "credential": "${password}"
+        }
+      }
+    },
+    "store": [
+      {
+        "key": "isAuthenticated",
+        "value": "true"
+      },
+      {
+        "key": "user",
+        "from": "."
+      },
+      {
+        "key": "permissions",
+        "from": "permissions"
+      },
+      {
+        "key": "features",
+        "from": "features"
+      }
+    ]
+  }
 }
