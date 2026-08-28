@@ -1,0 +1,13 @@
+{
+  "id": "silverbullet",
+  "name": "SilverBullet",
+  "icon": "NotebookPen",
+  "tint": "#e34c7c",
+  "repo": "https://github.com/silverbulletmd/silverbullet",
+  "install": "OS=$(uname -s | tr 'A-Z' 'a-z'); ARCH=$(uname -m | sed 's/arm64/aarch64/'); curl -sL https://github.com/silverbulletmd/silverbullet/releases/latest/download/silverbullet-server-$OS-$ARCH.zip -o sb.zip && unzip -o sb.zip silverbullet && rm sb.zip && chmod +x silverbullet && mkdir -p space",
+  "start": "./silverbullet --single -p 5303 space",
+  "port": 5303,
+  "window": { "w": 1100, "h": 720 },
+  "vendors": [],
+  "notes": "markdown notes wiki; single self-contained server binary, keyless in --single mode"
+}
