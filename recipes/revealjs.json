@@ -1,0 +1,11 @@
+{
+  "id": "revealjs",
+  "name": "Reveal.js",
+  "icon": "Presentation",
+  "tint": "#f0a500",
+  "repo": "https://github.com/hakimel/reveal.js",
+  "static": "revealjs",
+  "vendors": [],
+  "window": { "w": 1060, "h": 700 },
+  "notes": "HTML presentation framework; repo ships built dist/, served statically — root index.html is the demo deck, edit it to author slides"
+}

@@ -23,6 +23,10 @@ the first installer anywhere pays the cost once.
 - [Vikunja](https://github.com/go-vikunja/vikunja) — tasks: list, kanban,
   gantt; single Go binary, SQLite.
   `recipe: release binary darwin-arm64; config.yml {publicurl, interface :5302, sqlite}; verified v2.5.0`
+- [Reveal.js](https://github.com/hakimel/reveal.js) — HTML presentation
+  framework; the repo ships built, served statically — edit the root
+  index.html to author a deck. Installs in seconds.
+  `recipe: recipes/revealjs.json`
 - [SilverBullet](https://github.com/silverbulletmd/silverbullet) — notes
   as plain markdown, wiki links, Lua-scriptable. Notes are readable by
   every resident.
