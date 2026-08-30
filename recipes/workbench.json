@@ -3,12 +3,12 @@
   "name": "Workbench",
   "icon": "AppWindow",
   "tint": "#3b4150",
-  "repo": "https://github.com/yueranyuan/workbench",
+  "repo": "https://github.com/volter-ai/workbench",
   "install": "npm install --no-audit --no-fund && npm run build",
   "start": "node os/door/serve.mjs",
   "port": 5210,
   "env": { "WORKBENCH_ROOT": "." },
   "window": { "w": 1280, "h": 800 },
   "vendors": [],
-  "notes": "the OS itself — installing it boots a nested instance mounted on its own checkout (repo is private until the owner flips it public)"
+  "notes": "the OS itself — installing it boots a nested instance mounted on its own checkout (private org repo: installs need volter-ai access)"
 }
